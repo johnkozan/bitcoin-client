@@ -75,6 +75,11 @@ class Bitcoin::Client
     block
   end
 
+  # Returns the block hash for the block at the specified height
+  def getblockhash(height)
+    @api.request 'getblockhash', height
+  end
+
   # Returns the number of blocks in the longest block chain.
   def getblockcount
     @api.request 'getblockcount'

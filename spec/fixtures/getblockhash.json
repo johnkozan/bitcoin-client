@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Thu, 13 Mar 2014 22:46:15 +0000
+Connection: keep-alive
+Content-Length: 107
+Content-Type: application/json
+Server: bitcoin-json-rpc/v0.8.6-beta
+
+{"result":"000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f","error":null,"id":"curltest"}
